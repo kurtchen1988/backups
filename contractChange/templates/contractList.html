@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>展示</title>
+</head>
+<body>
+	{{msg.mesg_id}}
+	<table border="1px">
+	{% for i in msg %}
+	<tr>
+	<td>{{i.mesg_id}}</td>
+	</tr>
+	{% endfor %}
+	</table>
+</body>
+</html>
